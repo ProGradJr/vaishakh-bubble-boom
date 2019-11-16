@@ -1,0 +1,163 @@
+/* Colors: #46576D, #67584F, #C3A358, 
+#8E4113, #A39171, #EDE4E4 */
+
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    height: 150px;
+}
+
+
+.searchInput {
+    font-size: 1em;
+    margin: 5px 0;
+    font-family: FontAwesome;
+    font-weight: normal;
+    padding-left: 5px;
+    overflow: visible;
+    width: 100px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.searchInput::placeholder {
+    color: #67584F;
+}
+
+.icon-list::before {
+    content: none !important;
+}
+
+
+.nav-bar-section1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav-bar-section2 {
+    padding-top: 20px;
+    display: block;
+}
+
+.fas {
+    color: #67584F;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    color: #8E4113;
+}
+
+.banner-title {
+    font-size: 3em;
+    color: #46576D
+}
+
+.banner-subtitle {
+    font-size: 2em;
+    color: #67584F
+}
+
+.banner {
+    background-image: url("./assets/images/MainImg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    margin-top: 150px
+}
+
+.smallbanner {
+    background-image: url("./assets/images/MainImg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+}
+
+.smallbanner-text {
+    font-size: 1.5em;
+    width: 50%;
+
+}
+
+.cta-button {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 0 10px;
+    background: white;
+    color: #8E4113;
+    /* align-self: flex-end; */
+}
+
+.banner-div {
+    margin-left: 5%;
+    margin-top: 5%
+}
+
+.banner-div2 {
+    justify-self: flex-start;
+    align-self: flex-end;
+    margin-bottom: 5%;
+}
+
+
+.inner {
+    display: block;
+}
+
+.icon-holder {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-left {
+    display: flex;
+    align-items: center;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.icons {
+    font-size: 3em;
+    padding: 20px;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
