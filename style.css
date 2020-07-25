@@ -9,6 +9,7 @@
 body {
     font-family: 'Righteous', cursive;
     overflow:hidden;
+    touch-action: manipulation;
 }
 
 .flex-centered {
