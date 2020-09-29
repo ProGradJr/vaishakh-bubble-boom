@@ -1,7 +1,7 @@
 var seconds = document.getElementById("timer").textContent;
 const bubblesContainer = document.getElementById("bubbles-container");
 var score = 0;
-var sound = new Audio(“./assets/sound/pop.mp3”);
+var sound = new Audio("./assets/sound/pop.mp3");
 
 makeBubbles(20);
 
@@ -15,7 +15,7 @@ function makeBubbles(number) {
     bubble.style.animationDuration = `${getRandomInt(30, 100) / 10}s`;
     bubble.onclick = (evt) => {
       bubble.style.visibility = "hidden";
-      audio.play();
+      sound.play();
       score++;
       document.getElementById("score").innerHTML = score;
       setTimeout((evt) => {
